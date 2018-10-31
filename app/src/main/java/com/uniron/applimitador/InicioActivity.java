@@ -59,11 +59,11 @@ public  void MenuActivity(){
         //return String.valueOf(tasks);
    //}
 
-    public static String isApplicationBroughtToBackground(final Activity activity) {
-    ActivityManager activityManager = (ActivityManager) activity.getSystemService(Context.ACTIVITY_SERVICE);
-    List<ActivityManager.AppTask> tasks = activityManager.getAppTasks();
-    return String.valueOf(tasks);
-    }
+    //public static String isApplicationBroughtToBackground(final Activity activity) {
+    //ActivityManager activityManager = (ActivityManager) activity.getSystemService(Context.ACTIVITY_SERVICE);
+    //List<ActivityManager.AppTask> tasks = activityManager.getAppTasks();
+    //return String.valueOf(tasks);
+    //}
 
 
 
@@ -76,6 +76,24 @@ public  void MenuActivity(){
         //}
         //return false;
     //}
+
+    public static String getCurProcessName(Context context) {
+
+        int pid = android.os.Process.myPid();
+
+        ActivityManager activityManager = (ActivityManager) context
+                .getSystemService(Context.ACTIVITY_SERVICE);
+
+        for (ActivityManager.RunningAppProcessInfo appProcess : activityManager
+                .getRunningAppProcesses()) {
+
+            if (appProcess.pid == pid) {
+                return appProcess.processName;
+            }
+        }
+        return null;
+    }
+
 
 
 
