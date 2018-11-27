@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="https://ariol10@bitbucket.org/ariol10/applimitadortempo.git" vcs="Git" />
   </component>
 </project>
