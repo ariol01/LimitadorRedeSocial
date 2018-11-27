@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="db_medidortempo-journal" type="PLAIN_TEXT" />
+      <mapping pattern="DB_CRUDUNIRON" type="PLAIN_TEXT" />
+      <mapping pattern="db_medidortempo" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
