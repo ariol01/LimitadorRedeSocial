@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppLimitador</string>
+    <string-array name="opcoesMenu">
+        <item> Fazer uma pausa programada  </item>
+        <item> Emitir Relatorios </item>
+    </string-array>
+    <string name="strUsuario"> DIGITE SEU NOME  </string>
+    <string name="strSalvar">SALVAR</string>
+    <string name="strBuscarAplicativos">Buscar APP </string>
+
+</resources>
