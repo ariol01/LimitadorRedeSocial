@@ -11,7 +11,7 @@ SQLiteDatabase db;
 
 public   static final String APLICATIVO_REPOSITORY_SCRIPT = "CREATE TABLE tbl_aplicativo (\n" +
         "    pid           INT    PRIMARY KEY,\n" +
-        "    nome          STRING NOT NULL,\n" +
+        "    nome          TEXT NOT NULL,\n" +
         "    tempoExecucao DOUBLE NOT NULL\n" +
         ");\n";
 

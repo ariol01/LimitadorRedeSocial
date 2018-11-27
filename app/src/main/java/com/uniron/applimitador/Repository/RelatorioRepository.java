@@ -10,7 +10,7 @@ public class RelatorioRepository {
     SQLiteDatabase db;
 
     public   static final String RELATORIO_REPOSITORY_SCRIPT = "CREATE TABLE tbl_relatorio (\n" +
-            "    id             INTEGER  PRIMARY KEY AUTOINCREMENT,\n" +
+            "    id             INT  PRIMARY KEY ,\n" +
             "    data           DATETIME NOT NULL,\n" +
             "    tempoUtilizado DOUBLE   NOT NULL\n" +
             ");";

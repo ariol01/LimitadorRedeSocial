@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class ConexaoRepository extends SQLiteOpenHelper {
 
 
-    private static  final int VERSAO = 1;
+    private static  final int VERSAO = 2;
     private static final String NOME_BANCO = "db_medidortempo";
     private Context _context;
 
